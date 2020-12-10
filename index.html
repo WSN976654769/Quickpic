@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quickpic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+    <script type="module" src="src/helpers.js"></script>
+    <script type="module" src="src/api.js"></script>  
+</head>
+
+<body>
+    <!-- This is an example app structure, you can modify this as much as you choose --> 
+    <header class="banner">
+        <h1>Quickpic</h1>
+    </header>
+    <main role="main" >
+        <div id="loginPage" class="page_style">
+            <h1>Username</h1><input type="text" id="username"/><br>
+            <h1>Password</h1><input type="password" id="password"/><br>
+            <button id = 'loginButton' style="width: 100%" >Login</button>
+            <button id = 'registerButton' style="width: 100%">Register</button>
+        </div>
+        <div id='registerPage' class="page_style">
+            <b>Username</b> <input type="text" id="inputUsername"/><br>
+            <b>Password</b><input type="password" id="inputPassword"/><br>
+            <b>Confirm password</b><input type="password" id="confirmPassword"/><br>
+            <b>Email</b><input type="text" id="email"/><br>
+            <b>Name</b><input type="text" id="name"/><br>
+            <button id = 'submitButton' style="width: 100%">submit</button>
+            <button id = 'backLogin' style="width: 100%">back</button>
+        </div>
+        <div id="navigation" >
+            <button id = 'backHome'>Home</button>
+            <button id="myPage">MyProfile</button>
+            <button id="addPost">Add a Post</button> 
+            <button id = 'logoutButton'>Logout</button>  
+        </div>   
+        <div id='homePage'>
+            <h1>Feed</h1>        
+        </div>
+        <div id="profilePage">
+            <button id="followButton">Follow</button>
+            <button id="updateProfile">Update</button>
+            <div class="myProfile">
+                <p id="usernameP"></p>
+                <p id='nameP'></p>
+                <p id="emailP"></p>
+                <p id="following"></p>
+                <p id="followedNum"></p>
+            </div>
+            <div id="posts"></div>
+        </div>  
+        <div id="addPostPage" class="page_style" >
+            <h2>Adding a post</h2>
+            <textarea id="description" placeholder="Please enter your description"></textarea>
+            <input type="file" id="upload"/><br>
+            <img id="imgDisplay" alt='upload image'><br>
+            <button id="postButton">submit</button>
+        </div>
+        <div id="changeProfilePage" class="page_style">
+            <h2>Change your profile</h2>
+            Email<input type="text" id="emailC"/>
+            Name<input type="text" id="nameC"/>
+            Password<input type="password" id="inputPasswordC"/>
+            Confirm password<input type="password" id="confirmPasswordC"/>       
+            <button id = 'saveProfileButton'>save</button>
+        </div>   
+    </main>
+    <footer>
+        <p>&copy; Quickpic</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

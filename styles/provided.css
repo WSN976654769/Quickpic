@@ -1,0 +1,204 @@
+
+/* base styles, feel free to edit */
+body, html{
+  height: 100%;
+  width: 100%;
+  background: #fafafa;
+  font-family: 'Lato', sans-serif;
+}
+
+.page_style{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  padding: 10%;
+  height: auto;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightblue;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+footer {
+    border-top: 1px solid rgba(0,0,0,.0975);
+    padding: 10px;
+    background: lightblue;
+    min-height: 60px;
+    text-align: right;
+}
+
+button {    
+    background-color: lightblue;
+    font-size: 11pt;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(71,169,242);
+}
+p,b,u{
+    font-size: 15pt;
+}
+
+h1,h2,h3,b {
+  margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: lightgrey;
+    align-items: center;
+}
+li {
+    float: left;
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color : #d1d1d1;
+  font-size:15px;
+  color: #666666;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
+text{
+    border: 1px solid black;
+}
+textarea{
+    height: 100%;
+    width: 100%;
+}
+.banner > *, footer > * {
+    margin: 10px 25px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+}
+
+/* Add your styles here */
+#registerPage{
+    display: none;
+}
+
+#homePage{
+    display: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;   
+}
+
+#feeds{
+    padding: 8px;
+    margin: 10px;
+    background-color: lightblue;
+}
+.feed{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.post,.comment{  
+    padding: 20px;
+    margin: 10px;
+    background-color: #fafafa;
+}
+.post{
+    border: 1px solid black;
+}
+.comment{
+    border: 1.5px solid orange;
+    border-radius: 10px;
+}
+#profilePage{
+    display: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f2f2f2;
+}
+.myProfile,.postProfile{
+    background-color:  white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.myProfile{
+   border: 1px solid black;   
+}
+.postProfile{
+   border-radius: 20px;
+   border: 1.5px solid orange;
+}
+
+
+#changeProfilePage{
+    display: none;
+}
+
+#followButton{
+    background-color: lightblue;
+}
+#updateProfile{
+    display: none;
+}
+.editButton,.deleteButton{   
+    margin: 5px;
+}
+#addPostPage{
+    display: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+.likeButton{
+    margin: 10px;
+}
+
+#navigation{
+    display: none;
+}
+
+
