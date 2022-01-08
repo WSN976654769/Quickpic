@@ -1,38 +1,5 @@
-# Assessment 2 - Vanilla JS: Quickpic
+# Quickpic
 
-1. Background & Motivation
-2. The Task (Frontend)
-3. The Support (Backend)
-4. Constraints & Assumptions
-5. Marking Criteria
-6. Originality of Work
-7. Submission
-8. Late Submission Policy
-
-## 0. Change Log
-
-* 08-10:
-  * Clarity given in plagiarism section for students who have done COMP2014 in 2018.
-  * Added section "4.5. Static HTML, innerHTML, DOM manipulation"
-  * Moved the backend to it's own repository (for everyone's ease), and updated instructions accordingly in section 3. If you copied the backend from CSE servers prior to 3am on the 8th October, you will likely want to delete that folder and clone the new repository there.
-  * Section 2.5.4 updated with correct items described to pass in.
-  * Section 2.6.1 updated to reflect that polling should be used, not `/latest`
-  * Section 9 FAQ added
-  * Removed irrelevant helper functions in helper.js and api.js.
-  * Updated fileReader helper in helper.js to be more useful.
-  * Removed non compiling code from main.js.
-  * Added jsdoc comments to all initially provided code.
-* 12-10:
-  * Adding instructions in `2.` of how to run the frontend behind a HTTP server to more easily interact with backend.
-* 15-10:
-  * Clarified that for 2.5.2 you are not required to upload a new image.
-  * Clarification (here) that while the usage of async/await isn't banned in this assignment, we still discourage it's use because learning and understanding how promises work is a critical skill in the workforce.
-  * Adding section 3.1 to give a bit of help in terms of both exploring the DB and some example usernames that already exist in the DB that you can follow. This should save some people some time.
-* 16-10:
-  * Profile pics no longer required to be displayed, since this information is not available in the backend.
-* 20/10:
-  * Removed another trailing reference to profile pic
-  
 ## 1. Background & Motivation
 
 Web-based applications are becoming the most common way to build a digital capability accessible to a mass audience. While there are modern tools that help us build these rapidly, it's important to understand the fundamental Javascript-based technology and architectures that exist, both to gain a deeper understanding for when these skills may be needed, but also to simply understand the mechanics of fundamental JS. Even when working with a high level framework like React, understanding (in-concept) the code that is transpiled-to will ensure you're a more well rounded web-based engineer.
